@@ -15,4 +15,4 @@ def parallel_sum_of_squares(numbers, workers=None):
 if __name__ == "__main__":
     data = list(range(1, 1001))
     result = parallel_sum_of_squares(data)
-    print(f"Sum of squares 1..1000 using {cpu_count()} workers = {result}")
+    print(f"Pipeline triggered by webhook: sum of squares 1..1000 using {cpu_count()} workers = {result}")
